@@ -1,0 +1,143 @@
+main>img {
+    display: none;
+}
+
+.carousle-img {
+    border-bottom: 4px solid silver;
+    max-width: 100vw;
+    overflow-x: hidden;
+
+}
+
+
+.info {
+
+    padding: 0;
+    margin: 0;
+    background: beige;
+    height: 800px;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.right {
+    /* width: 50%; */
+    height: 560px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.first,
+.second {
+    height: 300px;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    background: beige;
+    -webkit-box-shadow: 0px 0px 10px 5px #dfdfc8;
+    -moz-box-shadow: 0px 0px 10px 5px #dfdfc8;
+    box-shadow: 0px 0px 10px 5px #dfdfc8;
+}
+
+
+
+/*  */
+article {
+    height: 800px;
+}
+
+.right div>.content {
+    height: 560px;
+    width: 80%;
+    background-size: cover;
+    /* background: beige; */
+    /* color: white; */
+    /* border: 2px solid black; */
+    padding: 15px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/30/14/58/music-1363069_640.jpg");
+    /* filter: blur(3px);
+-webkit-filter: blur(3px);
+    background-size: cover; */
+    -webkit-box-shadow: 0px 0px 10px 5px #dfdfc8;
+    -moz-box-shadow: 0px 0px 10px 5px #dfdfc8;
+    box-shadow: 0px 0px 10px 5px #dfdfc8;
+}
+
+.content h5,
+.content ul {
+    font-weight: bold;
+    /* border: 2px solid black; */
+
+}
+
+.content h2,
+.content div a {
+    /* border: 2px solid black; */
+    padding: 0;
+    text-align: center;
+}
+
+/* aside .first{
+
+} */
+.container-own {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.container-own:first-of-type {
+    padding-top: 140px;
+}
+
+
+.gallery {
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-gap: 30px;
+
+}
+
+.gallery img {
+
+    width: 100%;
+}
+
+@media screen and (max-width:426px) {
+
+    .content ul,
+    .content h5 {
+        display: none;
+    }
+
+    main>img {
+        display: block;
+        width: 100%;
+
+    }
+
+    main>div {
+        display: none;
+    }
+    .left p{
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .content ul {
+        display: none;
+    }
+    .content h2{
+        padding-top: 35%;
+    }
+}

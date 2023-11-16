@@ -1,0 +1,79 @@
+main {
+    background: rgb(210, 210, 171);
+}
+
+main div section>img {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    position: absolute;
+    top: -75px;
+    left: auto;
+    /* padding: 0; */
+    /* padding-top: 150px; */
+
+}
+
+main div section {
+    /* background: beige; */
+    -webkit-box-shadow: 0px 0px 10px 10px #dfdfc8;
+    -moz-box-shadow: 0px 0px 10px 10px #dfdfc8;
+    box-shadow: 0px 0px 10px 19px #dfdfc8;
+    background: rgb(210, 210, 171);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+section>h2{
+    padding-top: 80px;
+    width: 80%;
+    text-align: center;
+}
+section>p {
+    /* position: relative; */
+    /* padding-top: 140px; */
+    width: 80%;
+    text-align: center;
+}
+figure{
+    width: 100%;
+    margin: 0 !important;
+
+}
+figure img, figcaption{
+    width: 100% !important;
+    /* flex:1 !important; */
+    padding: 0;
+    margin: 0;
+    border-radius: 20%;
+    padding-left: 5px;
+}
+.container-own{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 1%;
+}
+/* .container-own:first-of-type{
+    padding-top: 140px;
+} */
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
+    grid-gap: 30px;
+
+}
+
+.gallery figure{
+
+    width: 100%;
+    
+}
